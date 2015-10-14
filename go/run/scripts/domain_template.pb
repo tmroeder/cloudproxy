@@ -42,6 +42,7 @@ datalog_rules: "(forall P: MemberProgram(P) implies Authorized(P, \"Execute\"))"
 
 host_predicate_name: "TrustedHost"
 
+program_paths: "beacon"
 program_paths: "mixnet_router"
 program_paths: "demo_server"
 program_paths: "demo_client"
